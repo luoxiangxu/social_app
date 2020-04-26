@@ -1,0 +1,475 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	background: rgba(100, 228, 222, 0.726);
+}
+header > h1{
+	text-align:center;
+	background: lightcyan;
+	margin: 20px 300px;
+	font-size:44px;
+	border-radius: 10px;
+}
+.score-board{
+	border: 3px solid white;
+	width: 200px;
+	height: 40px;
+	font-size: 30px;
+	margin:20px auto;
+	text-align: center;
+	position: relative;
+	border-radius: 5px;
+	padding: 15px;
+}
+.result{
+	font-size: 30px;
+	margin: 20px auto;
+	text-align: center;
+}
+.player{
+	font-size: 20px;
+	position: absolute;
+	top:15px;
+	left: -20px;
+	border:solid 2px;
+	background: white;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 10px;
+}
+.bot{
+	font-size: 20px;
+	position: absolute;
+	top:15px;
+	right: -20px;
+	border: solid 2px;
+	background: white;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 10px;
+}
+
+.round_text{
+	font-size:20px;
+	position: absolute;
+	top:-15px;
+	left:40px;
+	background: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.round{
+	font-size:20px;
+	position: absolute;
+	top:-15px;
+	left:130px;
+	background: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.draw_text{
+	font-size:20px;
+	position: absolute;
+	top:60px;
+	left:40px;
+	background: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.draw{
+	font-size:20px;
+	position: absolute;
+	top:60px;
+	left:130px;
+	background: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.images{
+	margin: 50px 0;
+	text-align: center;
+}
+
+
+.pictures{
+	display: inline-block;
+	margin: 0px 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 50%;
+  overflow: auto;
+  font-size: 20;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+footer{
+	/*background-color:rgb(100, 228, 87);*/
+	background-color:lightgrey;
+    position:fixed;
+    bottom: 0;
+    height: 50px;
+	width: 100%;
+	font-size: 18px;
+	text-align: left;
+}
+
+.profile{
+	font-size: 20px;
+	text-align: center;
+}
+
+form{
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+form > input{
+	margin: 10px auto;
+	width: 200px;
+	height: 30px;
+}
+
+.btn{
+	height: 40px;
+	width: 80px;
+	background: lightyellow;
+	font-size:20px;
+}
+form>.login{
+	font-size: 20px;
+	text-align: center;
+}
+
+button > img{
+	width: 200px;
+	height: 150px;
+}
+a >img{
+	width: 250px;
+	height: 200px;
+}
+
+button:hover{
+	background-color: grey;
+}
+
+.result{
+	font-size: 20px;
+	margin: 10 500px;
+	color:blue;
+}
+
+table{
+	width:100%;
+ 	border: 1px solid black;
+ 	margin:0 auto;
+ 	background: white;
+}
+
+.scroll{
+	overflow: auto;
+	width: 50%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+th{
+	text-align: left;
+	color: tomato;
+	border:1px solid black;
+	font-size:25px;
+}
+
+td{
+	font-size: 20px;
+	color: black;
+	border:1px solid black;
+}
+
+.btn1{
+	background: white;
+	width: 120px;
+	height: 100px;
+	text-align:center;
+	overflow:hidden;
+}
+.btn1:hover{
+	 background-color:slateblue ;
+}
+
+.titactoe1{
+	text-align: center;
+	font-size: 40px;
+	color:tomato;
+}
+.titactoe2{
+	text-align: center;
+	font-size: 40px;
+	color: mediumslateblue;
+}
+
+.titactoe_div{
+	text-align: center;
+}
+
+.new_btn{
+	width: 100;
+	height: 30;
+}
+
+.winner{
+	width: 200;
+	height: 30;
+	font-size: 20;
+	color: green;
+	font-weight: bold;
+}
+
+.winner_p{
+	font-size: 20;
+	color: green;
+	font-weight: bold;
+}
+
+.live_header{
+	text-align: center;
+	color: tomato;
+}
+#container {
+	margin: auto;
+	width: 500px;
+	height: 375px;
+}
+#video {
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+}
+.comment_live{
+	width: 250px;
+    background-color: #f1f1f1;
+  	height: 375px;
+  	font-size: 20;
+	border: 5px #333 solid;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.ttt_text{
+	font-size: 25px;
+	color: red;
+	text-align: center;
+}
+
+.post_scroll{
+	overflow: auto;
+	background-color:lightgrey;
+	width:60%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.post{
+	background:white;
+	width: 99%;
+	height: 400px;
+	display: block;
+	margin: 10px auto;
+	border: solid 3px;
+}
+
+.post_detail{
+	width: 100%;
+	height: 200px;
+	background-color: rgb(186, 222, 139);
+}
+
+.post_content{
+	width: 55%;
+	height: 200px;
+	display: inline-block;
+}
+
+textarea{
+	resize: none;
+}
+
+.post_image{
+	width: 45%;
+	height: 200px;
+	display: inline-block;
+}
+
+.post_images{
+	width: 100%;
+	height: 200px;
+}
+
+.comment{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-color: cyan;
+}
+
+.your_comment{
+	width: 100%;
+	height: 20%;
+}
+
+.your_comment > form{
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.write_comment{
+	width: 50%;
+	height: 75%;
+}
+
+.post_comment{
+	width: 100px;
+	height: 75%;
+}
+
+.comments_scroll{
+	width: 100%;
+	height: 80%;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.comments{
+	width: 99%;
+	background-color: lightgrey;
+	border: solid 1px;
+	margin: 1px;
+	margin-left: 2px;
+}
+
+.post_header_input{
+	width: 300px;
+	height: 30px;
+	text-align: left;
+}
+
+.post_header{
+	font-size: 20px;
+	color:tomato;
+}
+
+.post_mention{
+	text-align: center;
+	color:rgb(255, 72, 0);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.new_post{
+	width: 100px;
+	height: 30px;
+	margin: 10px;
+	border:solid 2px;
+	font-weight: bold;
+}
+
+.new_post_div{
+	width: 60%;
+	height: 350px;
+	background-color: lightgrey;
+	margin:0 auto;
+	text-align: left;
+}
+
+.follow{
+	width: 100px;
+	height: 30px;
+}
+
+.like{
+	font-size: 18px;
+}
+
+.like_on{
+	width: 100px;
+	height: 75%;
+	font-weight: bold;
+	background-color: green;
+}
+
+.like_off{
+	width: 100px;
+	height: 75%;
+	font-weight: bold;
+}
