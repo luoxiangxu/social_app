@@ -45,7 +45,7 @@ ob_start();
 					echo "</div>";
 				}
 			}else{
-				echo "currently no post";
+				echo "Currently no post";
 			}
 		?>
 	</div>

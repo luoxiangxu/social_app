@@ -12,7 +12,7 @@
 	<title>Search User</title>
 </head>
 <body>
-	<header><h1>Search User</h1></header>
+	<header><h1>Search User By Name</h1></header>
 	<form action='search_user.php' method="post">
 		<div class='search_user'>
 			<input class="winner" type="text" name="user">

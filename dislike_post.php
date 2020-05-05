@@ -11,7 +11,7 @@
 <body>
 <?php
     $postID=$_GET['postID'];
-    $stmt=$conn->prepare("SELECT * FROM postlikedislike WHERE like_date is null");
+    $stmt=$conn->prepare("SELECT * FROM postlikedislike WHERE postID='$postID' AND like_date is null");
 	$stmt->execute();
 	$result=$stmt->get_result();
 	if($result->num_rows > 0){
